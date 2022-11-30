@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(img/mangalore.jpg);
+    background-size: contain;
+    max-width: fit-content;
+   
+}
+
+.input{
+    text-align: center;
+    margin:100px 0;
+}
+input[type="text"]{
+    height:50px;
+    width:600px;
+    background: #e7e7e7;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 2px;
+    padding: 10px;
+}
+input[type="submit"]{
+    height:50px;
+    width:100px;
+    background:crimson;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 12px;
+}
+.display{
+    float:left;
+    text-align: left;
+    padding-left: 50px;
+    color:red;
+    font-weight:bold;
+    font-size: large;
+    text-transform: uppercase;
+    
+}
+
+/*#weatherContainer{
+    margin-top: 250px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+  
+    border: 5px solid rgba(97, 95, 95, 0.829);    
+    border-radius: 10px;
+    
+}
+
+#iconsContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 240px;
+    width: 1200px;    
+    border: 5px solid rgb(31, 82, 82);    
+    border-radius: 10px;
+    
+}*/
+
+.icons{
+    
+    display: inline-bock;
+    float: left;
+    height:250px;
+    width: 190px;
+    margin: 20px;
+    border: 5px solid rgb(48, 47, 47);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(149, 201, 243);
+}
+
+.image{
+    padding-bottom: 5px;
+    height: 100px;
+    width: 100%;
+}
+
+.weather{
+    margin: 5px;
+   /*  background-color: rgb(106, 215, 255); */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.daydesc{
+    color:crimson;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.minValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px; 
+    width: 85px;
+    margin: 0;
+    margin-left: 5px;
+    color:blue;
+    
+}
+
+
+.maxValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    color:rgb(68, 5, 5);
+}
